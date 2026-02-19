@@ -24,11 +24,6 @@ I'm a developer who enjoys low-level efficiency and high-level intelligence. I u
 
 ---
 
-### 📊 GitHub Activity
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=[YOUR_USERNAME]&show_icons=true&theme=catppuccin_mocha&hide_border=true&title_color=cba6f7&icon_color=f9e2af&text_color=cdd6f4&bg_color=1e1e2e" alt="Stats" height="180px" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=[YOUR_USERNAME]&layout=compact&theme=catppuccin_mocha&hide_border=true&title_color=cba6f7&text_color=cdd6f4&bg_color=1e1e2e" alt="Top Langs" height="180px" />
-</p>
 
 ---
 
