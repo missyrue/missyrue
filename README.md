@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Aaruni Choudhary!
+#  Hi, I'm Aaruni Choudhary!
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=cba6f7&center=true&vCenter=true&width=435&lines=I+use+Arch+btw;AI+and+Computer+Vision;Low-Level+Enthusiast" alt="Typing SVG" />
@@ -7,13 +7,13 @@
 ### 👨‍💻 About Me
 I'm a developer who enjoys low-level efficiency and high-level intelligence. I use ARCH btw
 
-- 🌱 I’m currently learning **PyTorch, Computer Vision, and Deep Learning**
-- 💬 Ask me about **C, Python, or Shell automation**
+-  I’m currently learning **PyTorch, Computer Vision, and Deep Learning**
+-  Ask me about **C, Python, or Shell automation**
 
 
 ---
 
-### 🛠️ My Tech Stack 
+###  My Tech Stack 
 
 | Category | Tools & Technologies |
 | :--- | :--- |
