@@ -1,126 +1,124 @@
-<!-- Catppuccin Mocha -->
+<div align="center">
+
+<!-- ===== HEADER SVG BANNER ===== -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="160">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1e2e"/>
+      <stop offset="100%" style="stop-color:#181825"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cba6f7"/>
+      <stop offset="50%" style="stop-color:#74c1e4"/>
+      <stop offset="100%" style="stop-color:#89dceb"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="160" rx="12" fill="url(#bg)"/>
+  <!-- Top accent line -->
+  <rect width="860" height="2" rx="1" fill="url(#accent)" opacity="0.8"/>
+
+  <!-- Arch logo -->
+  <g transform="translate(58, 80)" filter="url(#glow)">
+    <polygon points="0,-42 22,4 -22,4" fill="none" stroke="#cba6f7" stroke-width="1.4" opacity="0.35"/>
+    <polygon points="0,-38 9,-18 -9,-18" fill="#cba6f7" opacity="0.9"/>
+    <polygon points="0,-38 19,6 14,6 0,-28 -14,6 -19,6" fill="#74c1e4" opacity="0.85"/>
+    <rect x="-22" y="8" width="44" height="1.5" rx="1" fill="url(#accent)" opacity="0.5"/>
+  </g>
+
+  <!-- Divider -->
+  <rect x="110" y="28" width="1" height="104" fill="#cba6f7" opacity="0.18"/>
+
+  <!-- Name + subtitle -->
+  <text x="132" y="62" font-family="'JetBrains Mono',monospace" font-size="27" font-weight="700" fill="#cdd6f4" letter-spacing="-0.5">Aaruni Choudhary</text>
+  <text x="135" y="85" font-family="'JetBrains Mono',monospace" font-size="11.5" fill="#cba6f7" letter-spacing="3.5" opacity="0.9">LOW-LEVEL  ·  AI  ·  COMPUTER VISION</text>
+
+  <!-- Shell prompt line -->
+  <text x="132" y="114" font-family="'JetBrains Mono',monospace" font-size="12" fill="#a6e3a1">❯</text>
+  <text x="148" y="114" font-family="'JetBrains Mono',monospace" font-size="12" fill="#89dceb">cat</text>
+  <text x="178" y="114" font-family="'JetBrains Mono',monospace" font-size="12" fill="#cdd6f4" opacity="0.6">~/about.md</text>
+  <text x="270" y="114" font-family="'JetBrains Mono',monospace" font-size="11" fill="#f9e2af" opacity="0.45">  # I use Arch btw</text>
+
+  <!-- Online indicator -->
+  <circle cx="734" cy="48" r="5" fill="#a6e3a1" filter="url(#glow)"/>
+  <text x="746" y="52" font-family="'JetBrains Mono',monospace" font-size="10" fill="#a6e3a1" opacity="0.75">online</text>
+  <text x="734" y="68" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6c7086" text-anchor="start">arch · mocha</text>
+
+  <!-- Corner accent -->
+  <rect x="826" y="124" width="24" height="1" fill="#cba6f7" opacity="0.25"/>
+  <rect x="849" y="124" width="1" height="24" fill="#cba6f7" opacity="0.25"/>
+
+  <!-- Bottom line -->
+  <rect y="158" width="860" height="2" rx="1" fill="url(#accent)" opacity="0.35"/>
+</svg>
+
+<br/>
+
+<!-- Status badges -->
+![](https://img.shields.io/badge/Arch_Linux-1e1e2e?style=flat-square&logo=arch-linux&logoColor=1793d1)
+![](https://img.shields.io/badge/Hyprland-1e1e2e?style=flat-square&logo=wayland&logoColor=cba6f7)
+![](https://img.shields.io/badge/Zsh-1e1e2e?style=flat-square&logo=gnu-bash&logoColor=a6e3a1)
+![](https://img.shields.io/badge/Neovim-1e1e2e?style=flat-square&logo=neovim&logoColor=57A143)
+![](https://img.shields.io/badge/Catppuccin_Mocha-1e1e2e?style=flat-square&logoColor=cba6f7&logo=github)
+
+</div>
+
+<br/>
+
+<!-- ===== NEOFETCH ===== -->
 <div align="center">
 
 ```
-                  ▄
-                 ▟█▙
-                ▟███▙
-               ▟█████▙
-              ▟███████▙
-             ▟█████████▙       aaruni@archlinux
-            ▟███████████▙      ─────────────────────────────
-           ▟█████████████▙     OS      Arch Linux  x86_64
-          ▟███████████████▙    Shell   zsh + starship
-         ▟█████████████████▙   Editor  neovim (btw)
-        ▟███████████████████▙  WM      hyprland
-       ▟█████████████████████▙ Theme   catppuccin-mocha
-      ▟███████████████████████▙Colors  16
-     ▟█████████████████████████▙
-    ▟▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▙
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&pause=1000&color=CBA6F7&center=true&vCenter=true&width=500&lines=%24+whoami+%E2%86%92+aaruni-choudhary;%24+uname+-r+%E2%86%92+arch+%28btw%29;%24+nvim+%7E%2F.config%2F...;%24+sudo+pacman+-Syu+%F0%9F%93%A6" alt="Typing SVG" />
-
-</div>
-
----
-
-<div align="center">
-
-```fish
-# ~/.config/aaruni/about.conf
-
-[identity]
-  name     = "Aaruni Choudhary"
-  role     = "Low-Level Enthusiast & AI Tinkerer"
-  os       = "Arch Linux (I use Arch btw)"
-
-[currently_learning]
-  stack    = ["PyTorch", "Computer Vision", "Deep Learning"]
-
-[ask_me_about]
-  topics   = ["C", "Python", "Shell Automation", "Ricing"]
+╭───────────────────────────────────────────────────────────╮
+│                                                           │
+│    aaruni                                                 │
+│    ──────────────────                                     │
+│    OS        Arch Linux x86_64                            │
+│    Kernel    linux-zen                                    │
+│    Shell     zsh  +  starship                             │
+│    WM        Hyprland  (Wayland)                          │
+│    Terminal  kitty                                        │
+│    Editor    neovim                                       │
+│    Theme     Catppuccin Mocha                             │
+│                                                           │
+│    ▓▓▓  ▓▓▓  ▓▓▓  ▓▓▓  ▓▓▓  ▓▓▓  ▓▓▓  ▓▓▓                 │
+│                                                           │
+╰───────────────────────────────────────────────────────────╯
 ```
 
 </div>
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-</picture>
-
----
-
-## `pacman -Qs aaruni` — Tech Stack
-
+<!-- ===== TECH STACK ===== -->
 <div align="center">
 
-| `category` | `packages` |
-| :--- | :--- |
-| **languages** | ![C](https://img.shields.io/badge/C-%2311111b.svg?style=for-the-badge&logo=c&logoColor=%2389b4fa) ![Assembly](https://img.shields.io/badge/ASM-%2311111b.svg?style=for-the-badge&logo=assemblyscript&logoColor=%23eba0ac) ![Python](https://img.shields.io/badge/Python-%2311111b.svg?style=for-the-badge&logo=python&logoColor=%23f9e2af) ![JavaScript](https://img.shields.io/badge/JS-%2311111b.svg?style=for-the-badge&logo=javascript&logoColor=%23f9e2af) |
-| **ai / ml** | ![PyTorch](https://img.shields.io/badge/PyTorch-%2311111b.svg?style=for-the-badge&logo=pytorch&logoColor=%23ee4c2c) ![scikit-learn](https://img.shields.io/badge/sklearn-%2311111b.svg?style=for-the-badge&logo=scikitlearn&logoColor=%23cba6f7) ![OpenCV](https://img.shields.io/badge/OpenCV-%2311111b.svg?style=for-the-badge&logo=opencv&logoColor=%23a6e3a1) |
-| **system** | ![Arch](https://img.shields.io/badge/Arch_Linux-%2311111b.svg?style=for-the-badge&logo=arch-linux&logoColor=%231793d1) ![Hyprland](https://img.shields.io/badge/Hyprland-%2311111b.svg?style=for-the-badge&logo=wayland&logoColor=%23cba6f7) ![Neovim](https://img.shields.io/badge/Neovim-%2311111b.svg?style=for-the-badge&logo=neovim&logoColor=%23a6e3a1) ![Shell](https://img.shields.io/badge/zsh-%2311111b.svg?style=for-the-badge&logo=gnu-bash&logoColor=%23a6e3a1) ![Git](https://img.shields.io/badge/git-%2311111b.svg?style=for-the-badge&logo=git&logoColor=%23eba0ac) |
-| **styling** | ![CSS](https://img.shields.io/badge/CSS3-%2311111b.svg?style=for-the-badge&logo=css3&logoColor=%2389dceb) ![Tailwind](https://img.shields.io/badge/Tailwind-%2311111b.svg?style=for-the-badge&logo=tailwind-css&logoColor=%2389dceb) |
+`languages`&nbsp;&nbsp;
+![C](https://img.shields.io/badge/C-1e1e2e?style=flat-square&logo=c&logoColor=89b4fa)
+![Assembly](https://img.shields.io/badge/ASM-1e1e2e?style=flat-square&logo=assemblyscript&logoColor=eba0ac)
+![Python](https://img.shields.io/badge/Python-1e1e2e?style=flat-square&logo=python&logoColor=f9e2af)
+![JavaScript](https://img.shields.io/badge/JS-1e1e2e?style=flat-square&logo=javascript&logoColor=f9e2af)
 
-</div>
+`ai / ml`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-1e1e2e?style=flat-square&logo=pytorch&logoColor=ee4c2c)
+![OpenCV](https://img.shields.io/badge/OpenCV-1e1e2e?style=flat-square&logo=opencv&logoColor=a6e3a1)
+![scikit-learn](https://img.shields.io/badge/sklearn-1e1e2a?style=flat-square&logo=scikitlearn&logoColor=cba6f7)
+![NumPy](https://img.shields.io/badge/NumPy-1e1e2e?style=flat-square&logo=numpy&logoColor=74c1e4)
 
----
+`system`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![Arch](https://img.shields.io/badge/Arch-1e1e2e?style=flat-square&logo=arch-linux&logoColor=1793d1)
+![Neovim](https://img.shields.io/badge/Nvim-1e1e2e?style=flat-square&logo=neovim&logoColor=57A143)
+![Git](https://img.shields.io/badge/Git-1e1e2e?style=flat-square&logo=git&logoColor=f38ba8)
+![Docker](https://img.shields.io/badge/Docker-1e1e2e?style=flat-square&logo=docker&logoColor=89b4fa)
+![Bash](https://img.shields.io/badge/Zsh-1e1e2e?style=flat-square&logo=gnu-bash&logoColor=a6e3a1)
 
-## `cat ~/stats.log`
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aaruni-choudhary&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=11111b&title_color=cba6f7&icon_color=89b4fa&text_color=cdd6f4&border_radius=12)
-&nbsp;
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aaruni-choudhary&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=11111b&title_color=cba6f7&text_color=cdd6f4&border_radius=12)
-
-![GitHub Streak](https://streak-stats.demolab.com?user=aaruni-choudhary&theme=catppuccin-mocha&hide_border=true&background=11111b&border=11111b&ring=cba6f7&fire=f38ba8&currStreakLabel=cba6f7&border_radius=12)
-
-</div>
-
----
-
-## `git log --oneline` — Catppuccin Palette
-
-<div align="center">
-
-![#cba6f7](https://img.shields.io/badge/%E2%97%8F_mauve-cba6f7?style=flat-square&color=cba6f7)
-![#f38ba8](https://img.shields.io/badge/%E2%97%8F_red-f38ba8?style=flat-square&color=f38ba8)
-![#eba0ac](https://img.shields.io/badge/%E2%97%8F_maroon-eba0ac?style=flat-square&color=eba0ac)
-![#fab387](https://img.shields.io/badge/%E2%97%8F_peach-fab387?style=flat-square&color=fab387)
-![#f9e2af](https://img.shields.io/badge/%E2%97%8F_yellow-f9e2af?style=flat-square&color=f9e2af)
-![#a6e3a1](https://img.shields.io/badge/%E2%97%8F_green-a6e3a1?style=flat-square&color=a6e3a1)
-![#89dceb](https://img.shields.io/badge/%E2%97%8F_sky-89dceb?style=flat-square&color=89dceb)
-![#89b4fa](https://img.shields.io/badge/%E2%97%8F_blue-89b4fa?style=flat-square&color=89b4fa)
-
-</div>
-
----
-
-## `ssh connect` — Let's talk
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%2311111b.svg?style=for-the-badge&logo=linkedin&logoColor=%2389b4fa)](https://www.linkedin.com/in/aaruni-choudhary-984ab3261/)
-[![Email](https://img.shields.io/badge/Email-%2311111b?style=for-the-badge&logo=gmail&logoColor=%23f38ba8)](mailto:cs.aaruni.choudhary@gmail.com)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╭─ aaruni@archlinux ~
-╰─❯ echo "thanks for visiting :)"
-thanks for visiting :)
-╭─ aaruni@archlinux ~
-╰─❯ █
-```
-
-*btw I use Arch*
+`web`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![CSS3](https://img.shields.io/badge/CSS3-1e1e2e?style=flat-square&logo=css3&logoColor=89dceb)
+![Tailwind](https://img.shields.io/badge/Tailwind-1e1e2e?style=flat-square&logo=tailwind-css&logoColor=89dceb)
 
 </div>
