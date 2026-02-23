@@ -39,15 +39,8 @@
   <text x="135" y="85" font-family="'JetBrains Mono',monospace" font-size="11.5" fill="#cba6f7" letter-spacing="3.5" opacity="0.9">LOW-LEVEL  ·  AI  ·  COMPUTER VISION</text>
 
   <!-- Shell prompt line -->
-  <text x="132" y="114" font-family="'JetBrains Mono',monospace" font-size="12" fill="#a6e3a1">❯</text>
-  <text x="148" y="114" font-family="'JetBrains Mono',monospace" font-size="12" fill="#89dceb">cat</text>
-  <text x="178" y="114" font-family="'JetBrains Mono',monospace" font-size="12" fill="#cdd6f4" opacity="0.6">~/about.md</text>
-  <text x="270" y="114" font-family="'JetBrains Mono',monospace" font-size="11" fill="#f9e2af" opacity="0.45">  # I use Arch btw</text>
+  <text x="270" y="114" font-family="'JetBrains Mono',monospace" font-size="11" fill="#f9e2af" opacity="0.45">   I use Arch btw</text>
 
-  <!-- Online indicator -->
-  <circle cx="734" cy="48" r="5" fill="#a6e3a1" filter="url(#glow)"/>
-  <text x="746" y="52" font-family="'JetBrains Mono',monospace" font-size="10" fill="#a6e3a1" opacity="0.75">online</text>
-  <text x="734" y="68" font-family="'JetBrains Mono',monospace" font-size="9" fill="#6c7086" text-anchor="start">arch · mocha</text>
 
   <!-- Corner accent -->
   <rect x="826" y="124" width="24" height="1" fill="#cba6f7" opacity="0.25"/>
