@@ -115,3 +115,9 @@
 ![Tailwind](https://img.shields.io/badge/Tailwind-1e1e2e?style=flat-square&logo=tailwind-css&logoColor=89dceb)
 
 </div>
+
+---
+
+## Current project
+
+I'm working with my team on an [online bookstore](https://github.com/missyrue/Team4-SE-Project), built with Python, FastAPI, SQLAlchemy, and SQLite. I implemented the stock-aware cart flow, order pricing, and related tests. Next up: checkout, payments, and order management.
