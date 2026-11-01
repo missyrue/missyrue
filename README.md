@@ -21,8 +21,8 @@ I like building practical projects that connect software with real-world problem
 
 ## Tools I use
 
-**Languages:** Python · C · C++ · JavaScript · Bash  
-**Interests:** systems programming · AI/ML · computer vision · networking  
+**Languages:** Python · C · C++ · JavaScript · Bash<br>
+**Interests:** systems programming · AI/ML · computer vision · networking<br>
 **Environment:** Arch Linux · Neovim · Git · Docker
 
 ---
